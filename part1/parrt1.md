@@ -115,7 +115,7 @@ F. true === Boolean(2)
 15. Explain the difference between the == and === operators.
 - == checks for eqaulity with conversions, and === checks for eqaulity but doesn't allow for conversions
 
-16. ~include file here~
+16. part1b-question16.js
 
 17. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result.
 - The result is [2, 4, 6]. doSomething returns double the input array, since callback(array[i]) is actually performing the doSomething(array[i]). We know this because doSomething is passed into the modifyArray
