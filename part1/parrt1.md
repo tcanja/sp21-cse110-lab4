@@ -120,7 +120,7 @@ F. true === Boolean(2)
 17. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result? Briefly walk through how you arrived at that result.
 - The result is [2, 4, 6]. doSomething returns double the input array, since callback(array[i]) is actually performing the doSomething(array[i]). We know this because doSomething is passed into the modifyArray
 
-18. ~include file here~
+18. Read more [here](./part1b-question18.js)
 
 19. What is the output of the above code?
 - result: 1 4 3 2
